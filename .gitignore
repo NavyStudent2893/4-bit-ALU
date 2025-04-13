@@ -1,0 +1,21 @@
+# Vivado auto-generated files and directories
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.xpr.user
+*.jou
+*.log
+*.str
+*.wdb
+*.xml
+*.html
+*.backup*
+webtalk*
+*.xsim/
+*.mif
+
+# OS-specific files
+.DS_Store
+Thumbs.db
