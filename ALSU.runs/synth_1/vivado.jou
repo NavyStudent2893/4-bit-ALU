@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Sun Apr 13 14:49:36 2025
+# Process ID         : 13576
+# Current directory  : C:/Users/Lenovo/ALSU/ALSU.runs/synth_1
+# Command line       : vivado.exe -log alu_4bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_4bit.tcl
+# Log file           : C:/Users/Lenovo/ALSU/ALSU.runs/synth_1/alu_4bit.vds
+# Journal file       : C:/Users/Lenovo/ALSU/ALSU.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-V67TUBQ3
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16890 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 17964 MB
+# Available Virtual  : 2845 MB
+#-----------------------------------------------------------
+source alu_4bit.tcl -notrace

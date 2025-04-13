@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Sun Apr 13 14:49:36 2025
+# Process ID         : 13576
+# Current directory  : C:/Users/Lenovo/ALSU/ALSU.runs/synth_1
+# Command line       : vivado.exe -log alu_4bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_4bit.tcl
+# Log file           : C:/Users/Lenovo/ALSU/ALSU.runs/synth_1/alu_4bit.vds
+# Journal file       : C:/Users/Lenovo/ALSU/ALSU.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-V67TUBQ3
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16890 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 17964 MB
+# Available Virtual  : 2845 MB
+#-----------------------------------------------------------
+source alu_4bit.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Lenovo/ALSU/ALSU.srcs/utils_1/imports/synth_1/alu_4bit.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Lenovo/ALSU/ALSU.srcs/utils_1/imports/synth_1/alu_4bit.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top alu_4bit -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14404
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 850.273 ; gain = 472.211
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:229]
+INFO: [Synth 8-6157] synthesizing module 'ripple_carry_adder_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:43]
+INFO: [Synth 8-6157] synthesizing module 'FA' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FA' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ripple_carry_adder_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:43]
+INFO: [Synth 8-6157] synthesizing module 'adder_with_carry' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'adder_with_carry' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:106]
+INFO: [Synth 8-6157] synthesizing module 'subtractor_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'subtractor_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:58]
+INFO: [Synth 8-6157] synthesizing module 'subtractor_with_borrow' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'subtractor_with_borrow' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:82]
+INFO: [Synth 8-6157] synthesizing module 'and_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:124]
+INFO: [Synth 8-6155] done synthesizing module 'and_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:124]
+INFO: [Synth 8-6157] synthesizing module 'or_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:137]
+INFO: [Synth 8-6155] done synthesizing module 'or_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:137]
+INFO: [Synth 8-6157] synthesizing module 'xor_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:150]
+INFO: [Synth 8-6155] done synthesizing module 'xor_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:150]
+INFO: [Synth 8-6157] synthesizing module 'Not_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:163]
+INFO: [Synth 8-6155] done synthesizing module 'Not_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:163]
+INFO: [Synth 8-6157] synthesizing module 'increment_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:175]
+INFO: [Synth 8-6155] done synthesizing module 'increment_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:175]
+INFO: [Synth 8-6157] synthesizing module 'decrement_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:193]
+INFO: [Synth 8-6155] done synthesizing module 'decrement_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:193]
+INFO: [Synth 8-6157] synthesizing module 'transfer_A_4bit' [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:217]
+INFO: [Synth 8-6155] done synthesizing module 'transfer_A_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:217]
+INFO: [Synth 8-6155] done synthesizing module 'alu_4bit' (0#1) [C:/Users/Lenovo/ALSU/ALSU.srcs/sources_1/new/ALSU.v:229]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 956.738 ; gain = 578.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 956.738 ; gain = 578.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 956.738 ; gain = 578.676
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 956.738 ; gain = 578.676
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 52    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1137.477 ; gain = 759.414
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1137.477 ; gain = 759.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1137.477 ; gain = 759.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT4  |     1|
+|2     |LUT5  |     5|
+|3     |LUT6  |    15|
+|4     |MUXF7 |     3|
+|5     |IBUF  |    12|
+|6     |OBUF  |     5|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    41|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1333.426 ; gain = 955.363
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1348.453 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1458.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 53bbb177
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1458.348 ; gain = 1086.738
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1458.348 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Lenovo/ALSU/ALSU.runs/synth_1/alu_4bit.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file alu_4bit_utilization_synth.rpt -pb alu_4bit_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 13 14:50:04 2025...
